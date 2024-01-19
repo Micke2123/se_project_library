@@ -569,6 +569,9 @@ width: 57px;
 .footer__list-item {
   margin: 0 0 16px;
 }
+footer__list-items:nth-child(2n){
+  margin-top: 16px;
+  }
 
 .footer__column-heading {
   margin: 0 0 20px;
