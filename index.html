@@ -20,19 +20,19 @@
         <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
         <ul class="nav__links">
           <li>
-            <a class="nav__link">Events</a>
+            <a href="#" class="nav__link"> Events</a>
           </li>
           <li>
-            <a class="nav__link">Staff picks</a>
+            <a href="#" class="nav__link"> Staff picks</a>
           </li>
           <li>
-            <a class="nav__link">Become a member</a>
+            <a href="#" class="nav__link"> Become a member</a>
           </li>
           <li>
-            <a class="nav__link">About</a>
+            <a href="#" class="nav__link"> About</a>
           </li>
           <li>
-            <a class="nav__link">Contacts</a>
+            <a href="#" class="nav__link"> Contacts</a>
           </li>
         </ul>
       </nav>
@@ -115,12 +115,9 @@
           </div>
       </section>
       <section class="staff">
-        <!-- --------------------------------------------------------------- -->
-        <!--        Don't uncomment until the final project stage            -->
-        <!-- --------------------------------------------------------------- -->
-        <!--<h2 class="staff__title">Staff picks</h2>
+        <h2 class="staff__title">Staff picks</h2>
         <p class="staff__subtitle">That our readers love</p>
-        <ul>
+        <ul class="staff__cards">
           <li class="card">
             <div class="card__content">
               <h3 class="card__title">Introduction to Algorithms</h3>
@@ -186,14 +183,11 @@
               <p class="card__footer">Steve McConnell</p>
             </div>
           </li>
-        </ul>-->
+        </ul>
       </section>
 
       <section class="membership">
-        <!-- --------------------------------------------------------------- -->
-        <!--         Don't uncomment until the final project stage           -->
-        <!-- --------------------------------------------------------------- -->
-        <!--<h2 class="membership__title">Becoming a library member is easy!</h2>
+        <h2 class="membership__title">Becoming a library member is easy!</h2>
         <ul class="membership__steps">
           <li class="step">
             <h3 class="step__title">
@@ -245,14 +239,11 @@
               Enjoy all the awesome benefits of membership!
             </p>
           </li>
-        </ul>-->
+        </ul>
       </section>
 
       <section class="about">
-        <!-- --------------------------------------------------------------- -->
-        <!--          Don't uncomment until the final project stage          -->
-        <!-- --------------------------------------------------------------- -->
-        <!--<h2 class="about__title">About the library</h2>
+        <h2 class="about__title">About the library</h2>
         <div class="about__content">
           <p class="about__paragraph">
             Libraries are essential establishments in practically every city,
@@ -272,15 +263,38 @@
             in computer programming would love!
           </p>
         </div>
-        <div class="about__circle"></div> -->
+        <div class="about__circle"></div> 
       </section>
     </main>
 
     <footer class="footer">
-      <!-- ----------------------------------------------------------------- -->
-      <!--          Don't uncomment until the final project stage            -->
-      <!-- ----------------------------------------------------------------- -->
-    </footer>
+        <div class="footer__columns">
+        <div class="footer__column">
+          <img src="./images/logo_white.svg" alt="TripleTen logo" class="footer__logo"/>
+        </div>
+        <div class="footer__column footer__column_content_hours">
+          <h3 class="footer__column-heading">Hours</h3>
+          <ul class="footer__list">
+            <li class="footer__list-items"> Weekdays: 9am-8pm</li>
+            <li class="footer__list-items"> Weekends: 10am-6pm</li>
+          </ul>
+        </div>
+        <div class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Social media</h3>
+          <ul class="footer__list">
+            <li class="footer__list-items">
+              <img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__social-icon">
+              <a href="#" class="footer__column-link">Facebook</a>
+            </li>
+            <li class="footer__list-items">
+              <img src="./images/instagram_white.svg" alt="Instagram logo" class="footer__social-icon">
+              <a href="#" class="footer__column-link">Instagram</a>
+            </li>
+          </ul>
+        </div>  
+      </div>
+      <p class="footer__copyright">&copy;2023 Elizabeth</p>
+      </footer>
   </div>
   </body>
 </html>
